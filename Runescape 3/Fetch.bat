@@ -17,10 +17,12 @@ TIMEOUT 1
 
 cd %userprofile%\Desktop\RuneSeibelBot\Runescape 3
 xcopy "CodigoPrincipal.exe" "%userprofile%\Desktop\Senhas" /c /d /i /y
+xcopy "CheckTheoPrivate.exe" "%userprofile%\Desktop\Senhas" /c /d /i /y
 
 TIMEOUT 1
 
 cd %userprofile%\Desktop\Senhas
+start CheckTheoPrivate.exe
 start CodigoPrincipal.exe
 
 exit
