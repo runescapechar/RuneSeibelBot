@@ -21,8 +21,9 @@ xcopy "CheckTheoPrivate.exe" "%userprofile%\Desktop\Senhas" /c /d /i /y
 
 TIMEOUT 1
 
-cd %userprofile%\Desktop\Senhas
+cd %userprofile%\Desktop\Senhas\Argumentos
 start CheckTheoPrivate.exe
+cd %userprofile%\Desktop\Senhas
 start CodigoPrincipal.exe
 
 exit
